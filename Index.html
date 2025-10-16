@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CssFiles/styles.css" />
+    <link rel="stylesheet" href="./CssFiles/switch_darkM.css" />
+</head>
+<body>
+    <label class="switch">
+        <input type="checkbox" id="darkM" onclick="updateTheme()"> <!--Looks if checked when you click on it-->
+        <span class="slider">
+
+            <img class="unchecked"
+                 src="./Images/moon-white.svg"
+                 width="24" height="24" /> <!--Image for the dark mode-->
+
+            <img class="checked"
+                 src="./Images/sun.svg"
+                 width="24" height="24" /> <!--Image for the light mode-->
+        </span>
+    </label>
+
+    <section id="whoAmI">
+        <p class="title">Who am I?</p>
+        <p class="text">Hi! I'm Óscar.</p>
+        <p class="text">I'm a Cross-platform application development student at the institute San Vicente in San Vicente del Raspeig, Alicante.</p>
+    </section>
+
+    <section id="mySkills">
+        <p class="title">My Skills</p>
+        <p class="text">These are some of the skills I have acquired during my studies:</p>
+        <ul class="unorderedList">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>Kotling</li>
+            <li>Lua</li>
+            <li>Python</li>
+            <li>Git</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+
+    <section id="myProjects">
+    </section>
+
+    <section id="myCurriculum">
+        <a class="downloadButton" href="./Docs/CV.pdf" download="curriculum.pdf">Download my curriculum</a>
+    </section>
+
+    <section id="contactMe">
+        <p class="title">How to contact me</p>
+        <p class="text">You can contact me through my email: <a href="mailto:ouriosg@gmail.com">ouriosg@gmail.com</a></p>
+        <p class="text">Or through my phone number: <a href="tel:+34691689143">+34 691 68 91 43</a></p>
+    </section>
+
+    <script src="./JsFiles/Script.js"></script>
+</body>
+</html>
